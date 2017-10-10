@@ -1,0 +1,52 @@
+(a) Please paste the console output you saved at the end of step 3.
+	bash-3.2$ git push
+	Counting objects: 3, done.
+	Delta compression using up to 4 threads.
+	Compressing objects: 100% (2/2), done.
+	Writing objects: 100% (3/3), 317 bytes | 317.00 KiB/s, done.
+	Total 3 (delta 1), reused 0 (delta 0)
+	remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+	To https://github.com/bunchgrace/Assignment1.git
+   1cc7d66..bbc7e22  development -> development
+   
+(b) How many commits have been done to the repository (not only by you, but
+by anyone) so far? Please write the git command you used to get this information.
+(5 points)
+	9 - git rev-list --all --count
+	
+	
+(c) When was the file .gitignore modified last? Please write the git command you
+used to get this information. (5 points)
+	Wed Sep 27 16:31:42 2017 
+	git log -p .gitignore
+	
+(d) Please list the IDs of the commits used to merge the changes from the branch
+“development” to the branch “master”. (5 points)
+
+(e) Mention two reasons for using branches in a Git repository. (6 points)
+		Branching is used to help manage workflow. It creates an environment where you can try new ideas.
+		The changes you  make don't effect the master branch so you're free to experiment and commit
+		It wont be merged until it is ready for review
+		
+(f) What is the difference between git log and git status? (5 points)
+	git status shows the working tree status
+	git log retrieves info about the last commits
+	 
+(g) What command would you use to see the commits where “Weapon.h” was
+one of the committed files? (5 points)
+	git log -p Weapon.h
+	
+(h) What command would you use to see the commits whose commit message
+contains the word “file”? (5 points)
+	git log --grep="file"
+
+(i) In the context of object oriented programming (I) What is inheritance?
+(II) What is polymorphism? (III) What is encapsulation? (9 points)
+	(I) Inheritance is the process of creating new classes from existing classes
+	New classes inherit some of the properties and behavior of existing classes
+	
+	(II) Polymorphism occurs when there is a hierarchy of classes and they are related by inheritance
+	A call to a member function will cause a different function to be executed depending on the type of object that invokes the function
+	
+	(III)Encapsulation is the wrapping up of data and information under a singel unit
+	Binding together the data and the functions that manipulates them
