@@ -18,13 +18,3 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 
 
-//changes after git push
-bash-3.2$ git push
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 317 bytes | 317.00 KiB/s, done.
-Total 3 (delta 1), reused 0 (delta 0)
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To https://github.com/bunchgrace/Assignment1.git
-   1cc7d66..bbc7e22  development -> development
