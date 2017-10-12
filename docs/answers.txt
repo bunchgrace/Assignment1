@@ -50,3 +50,16 @@ contains the word “file”? (5 points)
 	
 	(III)Encapsulation is the wrapping up of data and information under a singel unit
 	Binding together the data and the functions that manipulates them
+	
+	
+	
+7. Answer the following question in the answers.txt file, and then commit and push the
+changed file to the repository (10 points):
+Is the RoleGame prototype using polymorphism or encapsulation? If you find that
+the prototype is using any of these two OOP principles, please discuss in which way the
+prototype is using it.
+
+- The game prototype is polymorphism because all of the weapons are inheriting the basic functions 
+from the weapon class - For instance CommonSpear is declared CommonSpear : Weapon( ) 
+which uses inheritance and polymorphism
+
